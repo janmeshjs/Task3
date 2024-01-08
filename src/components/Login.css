@@ -1,0 +1,81 @@
+.wrapper{
+    position: relative;
+    width: 420px;
+    background: rgb(20, 20, 21);
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 10px; /* Adjusted padding */
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;   
+}
+
+.wrapper img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 75%;
+    height: 50px;
+    background: none;
+    margin: 20px 50px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: white;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 20px 45px 20px 10px ;
+}
+
+.input-box input::placeholder{
+    color: rgb(20, 20, 21);
+}
+
+.wrapper button{
+    position: relative;
+    width: 75%;
+    height: 50px;
+    background: rgb(144, 213, 112);
+    margin: 10px 50px 20px;
+    border-radius: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+.wrapper .forget-pass{
+    display: flex;
+    font-size: 15px;
+    margin: -15px 0 15px 50px;
+
+}
+
+.forget-pass a{
+    color: #a6a1a1;
+    text-decoration: underline;
+    height: 50px;
+    margin: 20px 75px 20px;
+
+}
+
+.wrapper p{
+    color: rgb(206, 109, 109);
+    padding: 0 0 0 50px;
+    margin-top: -10px;
+}
+
+.success-message{
+    padding: 0 0 0 50px;
+    color: rgb(9, 255, 0);
+}
