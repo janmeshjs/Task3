@@ -1,0 +1,83 @@
+
+.dashboard {
+    padding: 20px;
+    background-color: #eeebeb;
+  }
+  
+  .cm {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 10px;
+    font-weight: 500;
+  }
+  
+  .chart1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cards {
+    width: 300px; 
+    margin: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    border-left: 12px solid rgb(65, 191, 154); 
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(2, 2, 2, 0.1);
+  }
+  .cards:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .cards p{
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    
+  }
+  
+  #data {
+    font-size: 24px;
+    text-align: top;
+
+  }
+
+  #pm1 {
+    text-align: top;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(65, 191, 154);
+  }
+  
+  #pm2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e91e63;
+  }
+  
+  .ch {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  #c1, #c2 {
+    margin-top: 20px;
+    font-weight: 600;
+    text-align: left;
+    padding: 10px;
+    width: 45%;
+  }
+
+  .bc{
+    
+    box-shadow: 0 10px 10px rgba(2, 2, 2, 0.1);
+  }
+
+  .bc:hover {
+    box-shadow: 0 15px 20px rgba(2, 2, 2, 0.2); 
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
